@@ -42,6 +42,15 @@ h2 {
 .main {
 	margin-left: 10px;
 }
+.main_image_center {
+	display: inline-block;
+		border-bottom: solid 5px #c3dee7;
+	height: 50px;
+}
+.main_image_center h3 {
+	line-height: 50px;
+	display: inline-block;
+}
 .icon {
 	border-radius: 15px;
 }
