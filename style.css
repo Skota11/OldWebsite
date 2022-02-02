@@ -2,7 +2,7 @@
 body {
 	/* text-align: center; */
 	font-family: 'Noto Sans JP', sans-serif;
-	margin: 0;
+	margin: 0 15% 0 15%;
 	background-color: #D7D7D7;
 }
 header {
@@ -44,7 +44,7 @@ h2 {
 }
 .main_image_center {
 	display: inline-block;
-		border-bottom: solid 5px #c3dee7;
+	border-bottom: solid 5px #c3dee7;
 	height: 50px;
 }
 .main_image_center h3 {
@@ -70,6 +70,12 @@ footer p {
 	border-bottom: solid 2px #64a3aa;
 }
 @media screen and (max-width: 959px) {
+	body {
+		margin: 0 10% 0 10%;
+	}
 }
 @media screen and (max-width: 480px) {
+	body {
+		margin: 0;
+	}
 }
